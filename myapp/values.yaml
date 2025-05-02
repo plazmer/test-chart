@@ -121,3 +121,10 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+postgresql:
+  enabled: true
+  auth:
+    username: "custom-user"     # Имя пользователя
+    password: "your-password"   # Пароль (или используйте существующий секрет)
+    database: "my-database"     # Название БД
