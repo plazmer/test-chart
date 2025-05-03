@@ -122,9 +122,9 @@ tolerations: []
 
 affinity: {}
 
-postgresql:
-  enabled: false
-  auth:
-    username: "custom-user"     # Имя пользователя
-    password: "your-password"   # Пароль (или используйте существующий секрет)
-    database: "my-database"     # Название БД
+#postgresql:
+#  enabled: false
+#  auth:
+#    username: "custom-user"     # Имя пользователя
+#    password: "your-password"   # Пароль (или используйте существующий секрет)
+#    database: "my-database"     # Название БД
