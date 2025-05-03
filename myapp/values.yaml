@@ -123,7 +123,7 @@ tolerations: []
 affinity: {}
 
 postgresql:
-  enabled: true
+  enabled: false
   auth:
     username: "custom-user"     # Имя пользователя
     password: "your-password"   # Пароль (или используйте существующий секрет)
